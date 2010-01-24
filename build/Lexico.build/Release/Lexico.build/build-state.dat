@@ -1,0 +1,977 @@
+TLexico
+v7
+r0
+t285999128.657077
+cCheck dependencies
+cProcessInfoPlistFile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/jbbjones/Lexico/English.lproj/MainMenu.xib
+cCompileXIB /Users/jbbjones/Lexico/English.lproj/MyDocument.xib
+cCpResource build/Release/Lexico.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
+cCompileXIB /Users/jbbjones/Lexico/CSSView.xib
+cCompileXIB /Users/jbbjones/Lexico/EntriesView.xib
+cCompileXIB /Users/jbbjones/Lexico/FBMatterView.xib
+cCompileXIB /Users/jbbjones/Lexico/InfoView.xib
+cProcessPCH /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch.gch Lexico_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch.gch Lexico_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch.gch Lexico_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/MyDocument.mom /Users/jbbjones/Lexico/MyDocument.xcdatamodel
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o /Users/jbbjones/Lexico/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/main.o /Users/jbbjones/Lexico/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/ManagingViewController.o /Users/jbbjones/Lexico/ManagingViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/CSSViewController.o /Users/jbbjones/Lexico/CSSViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/EntriesViewController.o /Users/jbbjones/Lexico/EntriesViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/FBMatterViewController.o /Users/jbbjones/Lexico/FBMatterViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/InfoViewController.o /Users/jbbjones/Lexico/InfoViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/XMLExtension.o /Users/jbbjones/Lexico/XMLExtension.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/Lexico normal x86_64
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o /Users/jbbjones/Lexico/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/main.o /Users/jbbjones/Lexico/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/ManagingViewController.o /Users/jbbjones/Lexico/ManagingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/CSSViewController.o /Users/jbbjones/Lexico/CSSViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/EntriesViewController.o /Users/jbbjones/Lexico/EntriesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/FBMatterViewController.o /Users/jbbjones/Lexico/FBMatterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/InfoViewController.o /Users/jbbjones/Lexico/InfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/XMLExtension.o /Users/jbbjones/Lexico/XMLExtension.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/Lexico normal i386
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/MyDocument-528B0CF58FE91DC2.o /Users/jbbjones/Lexico/MyDocument.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/main.o /Users/jbbjones/Lexico/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/ManagingViewController.o /Users/jbbjones/Lexico/ManagingViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/CSSViewController.o /Users/jbbjones/Lexico/CSSViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/EntriesViewController.o /Users/jbbjones/Lexico/EntriesViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/FBMatterViewController.o /Users/jbbjones/Lexico/FBMatterViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/InfoViewController.o /Users/jbbjones/Lexico/InfoViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/XMLExtension.o /Users/jbbjones/Lexico/XMLExtension.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/Lexico normal ppc
+cCreateUniversalBinary /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico normal "x86_64 i386 ppc"
+cGenerateDSYMFile /Users/jbbjones/Lexico/build/Release/Lexico.app.dSYM /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico
+cPBXCp build/Release/Lexico.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+cTouch /Users/jbbjones/Lexico/build/Release/Lexico.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004A583802000000000000043A
+t1247295490
+s1082
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A600B8400000000000013E6
+t1247808388
+s5094
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/jbbjones/Lexico/../.Trash/Credits.rtf
+c000000004B4BFA8100000000000001B4
+t1263270529
+s436
+
+N/Users/jbbjones/Lexico/CSSView.xib
+c000000004B53F0350000000000007C4F
+t1263792181
+s31823
+
+N/Users/jbbjones/Lexico/CSSViewController.h
+c000000004B53E5250000000000000118
+t1263789349
+s280
+i<Cocoa/Cocoa.h>
+i"ManagingViewController.h"
+
+N/Users/jbbjones/Lexico/CSSViewController.m
+c000000004B552A640000000000000169
+t1263872612
+s361
+i"CSSViewController.h"
+
+N/Users/jbbjones/Lexico/English.lproj/Credits.rtf
+c000000004B4BFA8100000000000001B4
+t1263270529
+s436
+
+N/Users/jbbjones/Lexico/English.lproj/InfoPlist.strings
+c000000004B5B757700000000000000CE
+t1264285047
+s206
+
+N/Users/jbbjones/Lexico/English.lproj/MainMenu.xib
+c000000004B4D46B6000000000001C262
+t1263355574
+s115298
+
+N/Users/jbbjones/Lexico/English.lproj/MyDocument.xib
+c000000004B5BC4B9000000000000A531
+t1264305337
+s42289
+
+N/Users/jbbjones/Lexico/EntriesView.xib
+c000000004B5B7BC9000000000000FC41
+t1264286665
+s64577
+
+N/Users/jbbjones/Lexico/EntriesViewController.h
+c000000004B53EF6A0000000000000120
+t1263791978
+s288
+i<Cocoa/Cocoa.h>
+i"ManagingViewController.h"
+
+N/Users/jbbjones/Lexico/EntriesViewController.m
+c000000004B5B4A7E000000000000017F
+t1264274046
+s383
+i"EntriesViewController.h"
+
+N/Users/jbbjones/Lexico/FBMatterView.xib
+c000000004B552B0600000000000070ED
+t1263872774
+s28909
+
+N/Users/jbbjones/Lexico/FBMatterViewController.h
+c000000004B552A5C0000000000000122
+t1263872604
+s290
+i<Cocoa/Cocoa.h>
+i"ManagingViewController.h"
+
+N/Users/jbbjones/Lexico/FBMatterViewController.m
+c000000004B552A86000000000000018F
+t1263872646
+s399
+i"FBMatterViewController.h"
+
+N/Users/jbbjones/Lexico/InfoView.xib
+c000000004B5B6FC5000000000000A149
+t1264283589
+s41289
+
+N/Users/jbbjones/Lexico/InfoViewController.h
+c000000004B552B8F000000000000011A
+t1263872911
+s282
+i<Cocoa/Cocoa.h>
+i"ManagingViewController.h"
+
+N/Users/jbbjones/Lexico/InfoViewController.m
+c000000004B552BAB000000000000016E
+t1263872939
+s366
+i"InfoViewController.h"
+
+N/Users/jbbjones/Lexico/Lexico_Prefix.pch
+c000000004B4BFA8100000000000000D7
+t1263270529
+s215
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/jbbjones/Lexico/ManagingViewController.h
+c000000004B53E4780000000000000168
+t1263789176
+s360
+i<Cocoa/Cocoa.h>
+
+N/Users/jbbjones/Lexico/ManagingViewController.m
+c000000004B53EF16000000000000015B
+t1263791894
+s347
+i"ManagingViewController.h"
+
+N/Users/jbbjones/Lexico/MyDocument.h
+c000000004B5A8B6A00000000000001F8
+t1264225130
+s504
+i<Cocoa/Cocoa.h>
+
+N/Users/jbbjones/Lexico/MyDocument.m
+c000000004B5B51E30000000000000A20
+t1264275939
+s2592
+i"MyDocument.h"
+i"CSSViewController.h"
+i"EntriesViewController.h"
+i"FBMatterViewController.h"
+i"InfoViewController.h"
+
+N/Users/jbbjones/Lexico/MyDocument.xcdatamodel
+c000000004B5B6FA20000000000000088
+t1264283554
+s136
+
+N/Users/jbbjones/Lexico/Sparkle.framework
+c000000004B4BF96F00000000000000CC
+t1263270255
+s204
+
+N/Users/jbbjones/Lexico/Sparkle.framework/Sparkle
+c0000000048CC84C200000000000712B4
+t1221362882
+s463540
+
+N/Users/jbbjones/Lexico/XMLExtension.h
+c000000004B593EDD0000000000000132
+t1264139997
+s306
+i<Foundation/Foundation.h>
+
+N/Users/jbbjones/Lexico/XMLExtension.m
+c000000004B593ED400000000000002FE
+t1264139988
+s766
+i"XMLExtension.h"
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/CSSViewController.o
+t1263872818
+s16860
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/EntriesViewController.o
+t1264279304
+s16904
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/FBMatterViewController.o
+t1263872818
+s16928
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/InfoViewController.o
+t1263873190
+s16868
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/Lexico
+t1264279305
+s21524
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/Lexico.LinkFileList
+c000000004B5B5EF9000000000000033F
+t1264279289
+s831
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/ManagingViewController.o
+t1263791983
+s17668
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o
+t1264279304
+s25020
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/XMLExtension.o
+t1264279304
+s7604
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/main.o
+t1263351951
+s4812
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/CSSViewController.o
+t1263872826
+s17016
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/EntriesViewController.o
+t1264279311
+s17060
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/FBMatterViewController.o
+t1263872827
+s17088
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/InfoViewController.o
+t1263873190
+s17032
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/Lexico
+t1264279311
+s21020
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/Lexico.LinkFileList
+c000000004B5B5EF90000000000000337
+t1264279289
+s823
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/ManagingViewController.o
+t1263791984
+s17776
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/MyDocument-528B0CF58FE91DC2.o
+t1264279311
+s25460
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/XMLExtension.o
+t1264279311
+s7892
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/main.o
+t1263351952
+s4840
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/CSSViewController.o
+t1263872818
+s17528
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/EntriesViewController.o
+t1264279297
+s17600
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/FBMatterViewController.o
+t1263872818
+s17632
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/InfoViewController.o
+t1263873189
+s17544
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/Lexico
+t1264279298
+s19728
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/Lexico.LinkFileList
+c000000004B5B5EF9000000000000034F
+t1264279289
+s847
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/ManagingViewController.o
+t1263791983
+s19376
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o
+t1264279297
+s29652
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/XMLExtension.o
+t1264279297
+s9920
+
+N/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/main.o
+t1263351948
+s5016
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app
+t1264306328
+s102
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app.dSYM
+t1264279312
+s102
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Frameworks/Sparkle.framework
+t1263355336
+s204
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Info.plist
+t1264284926
+s2648
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico
+t1264279311
+s70172
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/PkgInfo
+t1264284926
+s8
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/CSSView.nib
+t1263792196
+s3664
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/Credits.rtf
+t2
+s0
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj/Credits.rtf
+t1263355334
+s436
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1264285048
+s206
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj/MainMenu.nib
+t1263355578
+s20565
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj/MyDocument.nib
+t1264306328
+s5893
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/EntriesView.nib
+t1264305315
+s12182
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/FBMatterView.nib
+t1263872817
+s2866
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/InfoView.nib
+t1264283604
+s6315
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/MyDocument.mom
+t1264283605
+s2888
+
+N/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/dsa_pub.pem
+t1263355336
+s1178
+
+N/Users/jbbjones/Lexico/dsa_pub.pem
+c000000004B4BF9DD000000000000049A
+t1263270365
+s1178
+
+N/Users/jbbjones/Lexico/main.m
+c000000004B4BFA810000000000000107
+t1263270529
+s263
+i<Cocoa/Cocoa.h>
+
+N/var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch.gch
+t1263351946
+s52737616
+
+N/var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch.gch
+t1263351941
+s52868880
+
+N/var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch.gch
+t1263351940
+s55502640
+
+NInfo.plist
+c000000004B5B74B20000000000000B07
+t1264284850
+s2823
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies285999128#285999128#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/CSSViewController.o /Users/jbbjones/Lexico/CSSViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s285565618.538565
+e285565618.723998
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/i386/CSSViewController.o
+x/Users/jbbjones/Lexico/CSSViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jbbjones/Lexico/CSSViewController.m285565618#285565618#0(0"0(0#0#42"/Users/jbbjones/Lexico/CSSViewController.m4300882208#1022"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/i386 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/CSSViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/CSSViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/EntriesViewController.o /Users/jbbjones/Lexico/EntriesViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s285972098.044400
+e285972104.039881
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/i386/EntriesViewController.o
+x/Users/jbbjones/Lexico/EntriesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jbbjones/Lexico/EntriesViewController.m285972098#285972104#0(0"0(0#0#46"/Users/jbbjones/Lexico/EntriesViewController.m4300882208#1030"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/i386 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/EntriesViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/EntriesViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/FBMatterViewController.o /Users/jbbjones/Lexico/FBMatterViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s285565618.724228
+e285565618.911248
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/i386/FBMatterViewController.o
+x/Users/jbbjones/Lexico/FBMatterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jbbjones/Lexico/FBMatterViewController.m285565618#285565618#0(0"0(0#0#47"/Users/jbbjones/Lexico/FBMatterViewController.m4300882208#1032"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/i386 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/FBMatterViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/FBMatterViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/InfoViewController.o /Users/jbbjones/Lexico/InfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s285565990.022073
+e285565990.293103
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/i386/InfoViewController.o
+x/Users/jbbjones/Lexico/InfoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/jbbjones/Lexico/InfoViewController.m285565990#285565990#0(0"0(0#0#43"/Users/jbbjones/Lexico/InfoViewController.m4300882208#1024"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/i386 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/InfoViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/InfoViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/ManagingViewController.o /Users/jbbjones/Lexico/ManagingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s285484783.687779
+e285484783.920205
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/i386/ManagingViewController.o
+x/Users/jbbjones/Lexico/ManagingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jbbjones/Lexico/ManagingViewController.m285484783#285484783#0(0"0(0#0#47"/Users/jbbjones/Lexico/ManagingViewController.m4300882208#1032"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/i386 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/ManagingViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/ManagingViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o /Users/jbbjones/Lexico/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s285972097.353731
+e285972104.073967
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o
+x/Users/jbbjones/Lexico/MyDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jbbjones/Lexico/MyDocument.m:109: warning: incomplete implementation of class 'MyDocument'
+o/Users/jbbjones/Lexico/MyDocument.m:109: warning: method definition for '-createInfo:' not found
+lSLF07#2@43"Compile /Users/jbbjones/Lexico/MyDocument.m285972097#285972104#0(195"/Users/jbbjones/Lexico/MyDocument.m:109: warning: incomplete implementation of class 'MyDocument'/Users/jbbjones/Lexico/MyDocument.m:109: warning: method definition for '-createInfo:' not found2(22@47"Incomplete implementation of class 'MyDocument'285972102#0#98#0(6@35"/Users/jbbjones/Lexico/MyDocument.m285968739#109#0#109#0#38"incomplete implementation of class '*'0(22@46"Method definition for '-createInfo:' not found285972102#98#97#0(6@35"/Users/jbbjones/Lexico/MyDocument.m285968739#109#0#109#0#35"method definition for '*' not found0(0#0#35"/Users/jbbjones/Lexico/MyDocument.m4300882208#1025"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/i386 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/MyDocument.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/MyDocument-528B0CF58FE91DC2.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/XMLExtension.o /Users/jbbjones/Lexico/XMLExtension.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s285972104.040342
+e285972104.290052
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/i386/XMLExtension.o
+x/Users/jbbjones/Lexico/XMLExtension.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/jbbjones/Lexico/XMLExtension.m285972104#285972104#0(0"0(0#0#37"/Users/jbbjones/Lexico/XMLExtension.m4300882208#1012"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/i386 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/XMLExtension.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/XMLExtension.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/i386/main.o /Users/jbbjones/Lexico/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s285044751.634809
+e285044751.849304
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/i386/main.o
+x/Users/jbbjones/Lexico/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Compile /Users/jbbjones/Lexico/main.m285044751#285044751#0(0"0(0#0#29"/Users/jbbjones/Lexico/main.m4300882208#996"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/i386 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/main.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/CSSViewController.o /Users/jbbjones/Lexico/CSSViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s285565619.792197
+e285565626.953281
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/ppc/CSSViewController.o
+x/Users/jbbjones/Lexico/CSSViewController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jbbjones/Lexico/CSSViewController.m285565619#285565626#0(0"0(0#0#42"/Users/jbbjones/Lexico/CSSViewController.m4300882208#1016"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/ppc -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/CSSViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/CSSViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/EntriesViewController.o /Users/jbbjones/Lexico/EntriesViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s285972105.121779
+e285972111.331851
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/ppc/EntriesViewController.o
+x/Users/jbbjones/Lexico/EntriesViewController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jbbjones/Lexico/EntriesViewController.m285972105#285972111#0(0"0(0#0#46"/Users/jbbjones/Lexico/EntriesViewController.m4300882208#1024"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/ppc -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/EntriesViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/EntriesViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/FBMatterViewController.o /Users/jbbjones/Lexico/FBMatterViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s285565626.916117
+e285565627.124450
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/ppc/FBMatterViewController.o
+x/Users/jbbjones/Lexico/FBMatterViewController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jbbjones/Lexico/FBMatterViewController.m285565626#285565627#0(0"0(0#0#47"/Users/jbbjones/Lexico/FBMatterViewController.m4300882208#1026"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/ppc -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/FBMatterViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/FBMatterViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/InfoViewController.o /Users/jbbjones/Lexico/InfoViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s285565990.346628
+e285565990.518717
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/ppc/InfoViewController.o
+x/Users/jbbjones/Lexico/InfoViewController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/jbbjones/Lexico/InfoViewController.m285565990#285565990#0(0"0(0#0#43"/Users/jbbjones/Lexico/InfoViewController.m4300882208#1018"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/ppc -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/InfoViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/InfoViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/ManagingViewController.o /Users/jbbjones/Lexico/ManagingViewController.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s285484784.107366
+e285484784.362570
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/ppc/ManagingViewController.o
+x/Users/jbbjones/Lexico/ManagingViewController.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jbbjones/Lexico/ManagingViewController.m285484784#285484784#0(0"0(0#0#47"/Users/jbbjones/Lexico/ManagingViewController.m4300882208#1026"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/ppc -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/ManagingViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/ManagingViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/MyDocument-528B0CF58FE91DC2.o /Users/jbbjones/Lexico/MyDocument.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s285972104.074092
+e285972111.334670
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/ppc/MyDocument-528B0CF58FE91DC2.o
+x/Users/jbbjones/Lexico/MyDocument.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jbbjones/Lexico/MyDocument.m:109: warning: incomplete implementation of class 'MyDocument'
+o/Users/jbbjones/Lexico/MyDocument.m:109: warning: method definition for '-createInfo:' not found
+lSLF07#2@43"Compile /Users/jbbjones/Lexico/MyDocument.m285972104#285972111#0(195"/Users/jbbjones/Lexico/MyDocument.m:109: warning: incomplete implementation of class 'MyDocument'/Users/jbbjones/Lexico/MyDocument.m:109: warning: method definition for '-createInfo:' not found2(22@47"Incomplete implementation of class 'MyDocument'285972109#0#98#0(6@35"/Users/jbbjones/Lexico/MyDocument.m285968739#109#0#109#0#38"incomplete implementation of class '*'0(22@46"Method definition for '-createInfo:' not found285972109#98#97#0(6@35"/Users/jbbjones/Lexico/MyDocument.m285968739#109#0#109#0#35"method definition for '*' not found0(0#0#35"/Users/jbbjones/Lexico/MyDocument.m4300882208#1019"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/ppc -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/MyDocument.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/MyDocument-528B0CF58FE91DC2.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/XMLExtension.o /Users/jbbjones/Lexico/XMLExtension.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s285972111.332387
+e285972111.542311
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/ppc/XMLExtension.o
+x/Users/jbbjones/Lexico/XMLExtension.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/jbbjones/Lexico/XMLExtension.m285972111#285972111#0(0"0(0#0#37"/Users/jbbjones/Lexico/XMLExtension.m4300882208#1006"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/ppc -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/XMLExtension.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/XMLExtension.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/main.o /Users/jbbjones/Lexico/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s285044752.318082
+e285044752.483544
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/ppc/main.o
+x/Users/jbbjones/Lexico/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Compile /Users/jbbjones/Lexico/main.m285044752#285044752#0(0"0(0#0#29"/Users/jbbjones/Lexico/main.m4300882208#990"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/ppc -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/main.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/main.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/CSSViewController.o /Users/jbbjones/Lexico/CSSViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285565617.558324
+e285565618.253117
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/CSSViewController.o
+x/Users/jbbjones/Lexico/CSSViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/jbbjones/Lexico/CSSViewController.m285565617#285565618#0(0"0(0#0#42"/Users/jbbjones/Lexico/CSSViewController.m4300882208#1028"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/CSSViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/CSSViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/EntriesViewController.o /Users/jbbjones/Lexico/EntriesViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285972090.687274
+e285972097.268490
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/EntriesViewController.o
+x/Users/jbbjones/Lexico/EntriesViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jbbjones/Lexico/EntriesViewController.m285972090#285972097#0(0"0(0#0#46"/Users/jbbjones/Lexico/EntriesViewController.m4300882208#1036"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/EntriesViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/EntriesViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/FBMatterViewController.o /Users/jbbjones/Lexico/FBMatterViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285565617.910494
+e285565618.456398
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/FBMatterViewController.o
+x/Users/jbbjones/Lexico/FBMatterViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jbbjones/Lexico/FBMatterViewController.m285565617#285565618#0(0"0(0#0#47"/Users/jbbjones/Lexico/FBMatterViewController.m4300882208#1038"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/FBMatterViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/FBMatterViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/InfoViewController.o /Users/jbbjones/Lexico/InfoViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285565989.281623
+e285565989.926979
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/InfoViewController.o
+x/Users/jbbjones/Lexico/InfoViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/jbbjones/Lexico/InfoViewController.m285565989#285565989#0(0"0(0#0#43"/Users/jbbjones/Lexico/InfoViewController.m4300882208#1030"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/InfoViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/InfoViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/ManagingViewController.o /Users/jbbjones/Lexico/ManagingViewController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285484782.973430
+e285484783.471055
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/ManagingViewController.o
+x/Users/jbbjones/Lexico/ManagingViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/jbbjones/Lexico/ManagingViewController.m285484782#285484783#0(0"0(0#0#47"/Users/jbbjones/Lexico/ManagingViewController.m4300882208#1038"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/ManagingViewController.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/ManagingViewController.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o /Users/jbbjones/Lexico/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285972090.637659
+e285972097.353598
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o
+x/Users/jbbjones/Lexico/MyDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jbbjones/Lexico/MyDocument.m:109: warning: incomplete implementation of class 'MyDocument'
+o/Users/jbbjones/Lexico/MyDocument.m:109: warning: method definition for '-createInfo:' not found
+lSLF07#2@43"Compile /Users/jbbjones/Lexico/MyDocument.m285972090#285972097#0(195"/Users/jbbjones/Lexico/MyDocument.m:109: warning: incomplete implementation of class 'MyDocument'/Users/jbbjones/Lexico/MyDocument.m:109: warning: method definition for '-createInfo:' not found2(22@47"Incomplete implementation of class 'MyDocument'285972095#0#98#0(6@35"/Users/jbbjones/Lexico/MyDocument.m285968739#109#0#109#0#38"incomplete implementation of class '*'0(22@46"Method definition for '-createInfo:' not found285972095#98#97#0(6@35"/Users/jbbjones/Lexico/MyDocument.m285968739#109#0#109#0#35"method definition for '*' not found0(0#0#35"/Users/jbbjones/Lexico/MyDocument.m4300882208#1031"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/MyDocument.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/XMLExtension.o /Users/jbbjones/Lexico/XMLExtension.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285972097.268883
+e285972097.518813
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/XMLExtension.o
+x/Users/jbbjones/Lexico/XMLExtension.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/jbbjones/Lexico/XMLExtension.m285972097#285972097#0(0"0(0#0#37"/Users/jbbjones/Lexico/XMLExtension.m4300882208#1018"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/XMLExtension.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/XMLExtension.o0#
+
+CCompileC build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/main.o /Users/jbbjones/Lexico/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285044747.443813
+e285044748.306380
+r1
+xCompileC
+xbuild/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/main.o
+x/Users/jbbjones/Lexico/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Compile /Users/jbbjones/Lexico/main.m285044747#285044748#0(0"0(0#0#29"/Users/jbbjones/Lexico/main.m4300882208#1002"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/main.m -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/jbbjones/Lexico/CSSView.xib
+s285484996.360835
+e285484996.795392
+r1
+xCompileXIB
+x/Users/jbbjones/Lexico/CSSView.xib
+lSLF07#2@22"CompileXIB CSSView.xib285484996#285484996#0(0"0(0#0#34"/Users/jbbjones/Lexico/CSSView.xib4300882208#250"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/CSSView.nib /Users/jbbjones/Lexico/CSSView.xib0#
+
+CCompileXIB /Users/jbbjones/Lexico/English.lproj/MainMenu.xib
+s285048378.199771
+e285048378.733689
+r1
+xCompileXIB
+x/Users/jbbjones/Lexico/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib285048378#285048378#0(0"0(0#0#49"/Users/jbbjones/Lexico/English.lproj/MainMenu.xib4300882208#280"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jbbjones/Lexico/English.lproj/MainMenu.xib0#
+
+CCompileXIB /Users/jbbjones/Lexico/English.lproj/MyDocument.xib
+s285999128.365547
+e285999128.650749
+r1
+xCompileXIB
+x/Users/jbbjones/Lexico/English.lproj/MyDocument.xib
+lSLF07#2@39"CompileXIB English.lproj/MyDocument.xib285999128#285999128#0(0"0(0#0#51"/Users/jbbjones/Lexico/English.lproj/MyDocument.xib4300882208#284"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj/MyDocument.nib /Users/jbbjones/Lexico/English.lproj/MyDocument.xib0#
+
+CCompileXIB /Users/jbbjones/Lexico/EntriesView.xib
+s285998114.850304
+e285998115.740745
+r1
+xCompileXIB
+x/Users/jbbjones/Lexico/EntriesView.xib
+lSLF07#2@26"CompileXIB EntriesView.xib285998114#285998115#0(0"0(0#0#38"/Users/jbbjones/Lexico/EntriesView.xib4300882208#258"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/EntriesView.nib /Users/jbbjones/Lexico/EntriesView.xib0#
+
+CCompileXIB /Users/jbbjones/Lexico/FBMatterView.xib
+s285565616.877446
+e285565617.144039
+r1
+xCompileXIB
+x/Users/jbbjones/Lexico/FBMatterView.xib
+lSLF07#2@27"CompileXIB FBMatterView.xib285565616#285565617#0(0"0(0#0#39"/Users/jbbjones/Lexico/FBMatterView.xib4300882208#260"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/FBMatterView.nib /Users/jbbjones/Lexico/FBMatterView.xib0#
+
+CCompileXIB /Users/jbbjones/Lexico/InfoView.xib
+s285976404.681375
+e285976404.959968
+r1
+xCompileXIB
+x/Users/jbbjones/Lexico/InfoView.xib
+lSLF07#2@23"CompileXIB InfoView.xib285976404#285976404#0(0"0(0#0#35"/Users/jbbjones/Lexico/InfoView.xib4300882208#252"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/InfoView.nib /Users/jbbjones/Lexico/InfoView.xib0#
+
+CCopyStringsFile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s285977848.525710
+e285977848.560610
+r1
+xCopyStringsFile
+x/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings285977848#285977848#0(0"0(0#0#54"/Users/jbbjones/Lexico/English.lproj/InfoPlist.strings4300882208#335"    cd /Users/jbbjones/Lexico    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Release/Lexico.app/Contents/Resources/Credits.rtf ../.Trash/Credits.rtf
+r0
+
+CCpResource build/Release/Lexico.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+s285048134.469190
+e285048134.540354
+r1
+xCpResource
+xbuild/Release/Lexico.app/Contents/Resources/English.lproj/Credits.rtf
+xEnglish.lproj/Credits.rtf
+lSLF07#2@30"Copy English.lproj/Credits.rtf285048134#285048134#0(0"0(0#0#48"/Users/jbbjones/Lexico/English.lproj/Credits.rtf4300882208#329"    cd /Users/jbbjones/Lexico    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jbbjones/Lexico/English.lproj/Credits.rtf /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Release/Lexico.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
+s285048136.450979
+e285048136.464006
+r1
+xCpResource
+xbuild/Release/Lexico.app/Contents/Resources/dsa_pub.pem
+xdsa_pub.pem
+lSLF07#2@16"Copy dsa_pub.pem285048136#285048136#0(0"0(0#0#34"/Users/jbbjones/Lexico/dsa_pub.pem4300882208#301"    cd /Users/jbbjones/Lexico    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jbbjones/Lexico/dsa_pub.pem /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico normal "x86_64 i386 ppc"
+s285972111.937464
+e285972111.967596
+r1
+xCreateUniversalBinary
+x/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@93"CreateUniversalBinary build/Release/Lexico.app/Contents/MacOS/Lexico normal "x86_64 i386 ppc"285972111#285972111#0(0"0(0#0#38"/Users/jbbjones/Lexico/x86_64 i386 ppc4300882208#405"    cd /Users/jbbjones/Lexico    /usr/bin/lipo -create /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/Lexico /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/Lexico /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/Lexico -output /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico0#
+
+CDataModelCompile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/MyDocument.mom /Users/jbbjones/Lexico/MyDocument.xcdatamodel
+s285976404.960407
+e285976405.026909
+r1
+xDataModelCompile
+x/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/MyDocument.mom
+x/Users/jbbjones/Lexico/MyDocument.xcdatamodel
+lSLF07#2@53"Compile /Users/jbbjones/Lexico/MyDocument.xcdatamodel285976404#285976405#0(0"0(0#0#45"/Users/jbbjones/Lexico/MyDocument.xcdatamodel4300882208#215"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/jbbjones/Lexico/MyDocument.xcdatamodel /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Resources/MyDocument.mom0#
+
+CGenerateDSYMFile /Users/jbbjones/Lexico/build/Release/Lexico.app.dSYM /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico
+s285972111.967739
+e285972112.154665
+r1
+xGenerateDSYMFile
+x/Users/jbbjones/Lexico/build/Release/Lexico.app.dSYM
+x/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico
+lSLF07#2@93"GenerateDSYMFile build/Release/Lexico.app.dSYM build/Release/Lexico.app/Contents/MacOS/Lexico285972111#285972112#0(0"0(0#0#69"/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico4300882208#188"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/dsymutil /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/MacOS/Lexico -o /Users/jbbjones/Lexico/build/Release/Lexico.app.dSYM0#
+
+CLd /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/Lexico normal i386
+s285972104.290158
+e285972105.121229
+r1
+xLd
+x/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/Lexico
+xnormal
+xi386
+lSLF07#2@94"Link /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/Lexico285972104#285972105#0(0"0(0#0#0"4300882208#525"    cd /Users/jbbjones/Lexico    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -filelist /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/Lexico.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Sparkle -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/i386/Lexico0#
+
+CLd /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/Lexico normal ppc
+s285972111.542421
+e285972111.937354
+r1
+xLd
+x/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/Lexico
+xnormal
+xppc
+lSLF07#2@93"Link /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/Lexico285972111#285972111#0(0"0(0#0#0"4300882208#522"    cd /Users/jbbjones/Lexico    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -filelist /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/Lexico.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Sparkle -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/ppc/Lexico0#
+
+CLd /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/Lexico normal x86_64
+s285972097.518909
+e285972098.043978
+r1
+xLd
+x/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/Lexico
+xnormal
+xx86_64
+lSLF07#2@96"Link /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/Lexico285972097#285972098#0(0"0(0#0#0"4300882208#531"    cd /Users/jbbjones/Lexico    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -filelist /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/Lexico.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Sparkle -o /Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Objects-normal/x86_64/Lexico0#
+
+CPBXCp build/Release/Lexico.app/Contents/Frameworks/Sparkle.framework Sparkle.framework
+s285048136.924545
+e285048137.340363
+r1
+xPBXCp
+xbuild/Release/Lexico.app/Contents/Frameworks/Sparkle.framework
+xSparkle.framework
+lSLF07#2@22"Copy Sparkle.framework285048136#285048137#0(0"0(0#0#40"/Users/jbbjones/Lexico/Sparkle.framework4300882208#308"    cd /Users/jbbjones/Lexico    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/jbbjones/Lexico/Sparkle.framework /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Info.plist Info.plist
+s285977726.378026
+e285977726.382012
+r1
+xProcessInfoPlistFile
+x/Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist285977726#285977726#0(0"0(0#0#33"/Users/jbbjones/Lexico/Info.plist4300882208#256"    cd /Users/jbbjones/Lexico    builtin-infoPlistUtility Info.plist -genpkginfo /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jbbjones/Lexico/build/Release/Lexico.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch.gch Lexico_Prefix.pch normal ppc objective-c com.apple.compilers.gcc.4_2
+s285044741.259185
+e285044746.555808
+r1
+xProcessPCH
+x/var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch.gch
+xLexico_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Lexico_Prefix.pch285044741#285044746#0(0"0(0#0#40"/Users/jbbjones/Lexico/Lexico_Prefix.pch4300882208#914"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/ppc -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -c /Users/jbbjones/Lexico/Lexico_Prefix.pch -o /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-anzrhmuwgbuydeeqbvijicijrfyy/Lexico_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch.gch Lexico_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s285044700.853885
+e285044742.528566
+r1
+xProcessPCH
+x/var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch.gch
+xLexico_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Lexico_Prefix.pch285044700#285044742#0(0"0(0#0#40"/Users/jbbjones/Lexico/Lexico_Prefix.pch4300882208#923"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -c /Users/jbbjones/Lexico/Lexico_Prefix.pch -o /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cjjikrrvvlkoogaylegpzixcthga/Lexico_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch.gch Lexico_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s285044700.854878
+e285044741.258997
+r1
+xProcessPCH
+x/var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch.gch
+xLexico_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Lexico_Prefix.pch285044700#285044741#0(0"0(0#0#40"/Users/jbbjones/Lexico/Lexico_Prefix.pch4300882208#919"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Release -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Release/include -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources/i386 -I/Users/jbbjones/Lexico/build/Lexico.build/Release/Lexico.build/DerivedSources -c /Users/jbbjones/Lexico/Lexico_Prefix.pch -o /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-cocffkkldgxvxtdsredpfnxqhehp/Lexico_Prefix.pch.gch0#
+
+CTouch /Users/jbbjones/Lexico/build/Release/Lexico.app
+s285999128.653999
+e285999128.657033
+r1
+xTouch
+x/Users/jbbjones/Lexico/build/Release/Lexico.app
+lSLF07#2@53"Touch /Users/jbbjones/Lexico/build/Release/Lexico.app285999128#285999128#0(0"0(0#0#0"4300882208#100"    cd /Users/jbbjones/Lexico    /usr/bin/touch -c /Users/jbbjones/Lexico/build/Release/Lexico.app0#
+

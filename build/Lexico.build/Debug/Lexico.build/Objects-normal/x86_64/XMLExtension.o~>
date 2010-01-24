@@ -1,0 +1,3 @@
+/Users/jbbjones/Lexico/XMLExtension.m:39: warning: incomplete implementation of category 'XMLExtension'
+/Users/jbbjones/Lexico/XMLExtension.m:39: warning: method definition for '-FPChildrenAsStrings' not found
+/Users/jbbjones/Lexico/XMLExtension.m:39: warning: method definition for '-FPChildNamed:' not found
