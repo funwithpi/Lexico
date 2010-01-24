@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Lexico Appcast</title>
+      <link>http://dl.dropbox.com/u/1478177/appcast.xml</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>
+      <item>
+           <title>Version 0.0.5</title>
+           <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+						<sparkle:releaseNotesLink>
+							http://dl.dropbox.com/u/1478177/releaseNotes.html
+						</sparkle:releaseNotesLink>
+           <pubDate>Sat, 23 Jan 2010 15:47:00 +0000</pubDate>
+           <enclosure url="http://dl.dropbox.com/u/1478177/Releases/Lexico0.0.5.zip" sparkle:version="0.0.5" sparkle:dsaSignature="MC0CFQCQ6hMV/R/9zcmotZyD4mmL7Vac3AIUKjgXO3tOOQeCn5JrRIYlMJsHIow=" length="463000" type="application/octet-stream" />
+        </item>
+        <item>
+           <title>Version 0.0.4</title>
+           <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+						<sparkle:releaseNotesLink>
+							http://dl.dropbox.com/u/1478177/releaseNotes.html
+						</sparkle:releaseNotesLink>
+           <pubDate>Tue, 12 Jan 2010 23:17:00 +0000</pubDate>
+           <enclosure url="http://dl.dropbox.com/u/1478177/Releases/Lexico0.0.4.zip" sparkle:version="0.0.4" sparkle:dsaSignature="MC0CFQCRvfY51M8U9dtAh+BrCQI+S/ONZAIUGgZBNWZI8wp9nUc/wuMDAzKQPhw=" length="442000" type="application/octet-stream" />
+        </item>
+		<item>
+           <title>Version 0.0.3</title>
+           <sparkle:minimumSystemVersion>10.6.0</sparkle:minimumSystemVersion>
+						<sparkle:releaseNotesLink>
+							http://dl.dropbox.com/u/1478177/releaseNotes.html
+						</sparkle:releaseNotesLink>
+           <pubDate>Tue, 12 Jan 2010 22:45:00 +0000</pubDate>
+           <enclosure url="http://dl.dropbox.com/u/1478177/Releases/Lexico0.0.2.zip" sparkle:version="0.0.3" sparkle:dsaSignature="MCwCFFDa4XDcTQy9N/SRPOXXQsB3QBXgAhQfYmeTp24IvuHy6uBpo4ib3xHbdg==" length="442000" type="application/octet-stream" />
+        </item>
+   </channel>
+</rss>

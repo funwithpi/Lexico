@@ -1,0 +1,31 @@
+html {
+	font-family: "Helvetica";
+	text-align: justify;
+	font-size: 1.15em;
+}
+
+.update {
+	border: lightblue 1px solid;
+	margin: 10px;
+	padding-bottom: 0;
+	-webkit-border-radius: 10px;
+	background: white;
+	overflow: hidden;
+	-webkit-transition: background 0.25s ease-in;
+}
+
+.update:hover {
+	background: #DEF1FF;
+}
+
+.title {
+	border-bottom: lightblue 1px solid;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#87D1FF), to(#83C8F2));
+	text-shadow: 0px 1px 1px #C2E8FF;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.info {
+	padding: 0 10px 0 10px;
+}
