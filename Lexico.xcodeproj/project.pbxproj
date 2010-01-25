@@ -25,6 +25,9 @@
 		C2AFEA191105621500E31013 /* FBMatterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AFEA181105621500E31013 /* FBMatterView.xib */; };
 		C2AFEA28110562E500E31013 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AFEA27110562E500E31013 /* InfoViewController.m */; };
 		C2AFEA2B1105633700E31013 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AFEA2A1105633700E31013 /* InfoView.xib */; };
+		C2B80EA5110CC38100135F92 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B80EA4110CC38100135F92 /* Preferences.xib */; };
+		C2B80EB0110CC68500135F92 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B80EAF110CC68500135F92 /* AppController.m */; };
+		C2B80EB4110CC7EE00135F92 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B80EB3110CC7EE00135F92 /* PreferenceController.m */; };
 		C2CAEB8810FC324300A76D72 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAEB8710FC324300A76D72 /* Sparkle.framework */; };
 		C2CAEBA310FC339800A76D72 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2CAEB8710FC324300A76D72 /* Sparkle.framework */; };
 		C2CAEBA710FC359700A76D72 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = C2CAEBA610FC359700A76D72 /* dsa_pub.pem */; };
@@ -75,6 +78,11 @@
 		C2AFEA26110562E500E31013 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		C2AFEA27110562E500E31013 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		C2AFEA2A1105633700E31013 /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		C2B80EA4110CC38100135F92 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		C2B80EAE110CC68500135F92 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		C2B80EAF110CC68500135F92 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		C2B80EB2110CC7EE00135F92 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
+		C2B80EB3110CC7EE00135F92 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
 		C2CAEB8710FC324300A76D72 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		C2CAEBA610FC359700A76D72 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +146,10 @@
 				C2AFE96611041C7000E31013 /* View Swap */,
 				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
 				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
+				C2B80EAE110CC68500135F92 /* AppController.h */,
+				C2B80EAF110CC68500135F92 /* AppController.m */,
+				C2B80EB2110CC7EE00135F92 /* PreferenceController.h */,
+				C2B80EB3110CC7EE00135F92 /* PreferenceController.m */,
 				C24E34DC110927B0007D818C /* XMLExtension.h */,
 				C24E34DD110927B0007D818C /* XMLExtension.m */,
 			);
@@ -160,6 +172,7 @@
 				C2CAEBA610FC359700A76D72 /* dsa_pub.pem */,
 				2F7446A70DB6BCF400F9684A /* MainMenu.xib */,
 				2F7446A90DB6BCF400F9684A /* MyDocument.xib */,
+				C2B80EA4110CC38100135F92 /* Preferences.xib */,
 				8D15AC360486D014006FF6A4 /* Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
 			);
@@ -289,6 +302,7 @@
 				C2AFEA191105621500E31013 /* FBMatterView.xib in Resources */,
 				C2AFEA2B1105633700E31013 /* InfoView.xib in Resources */,
 				C226A53E110C029500E11EA7 /* Credits.rtf in Resources */,
+				C2B80EA5110CC38100135F92 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +322,8 @@
 				C2AFEA16110561A700E31013 /* FBMatterViewController.m in Sources */,
 				C2AFEA28110562E500E31013 /* InfoViewController.m in Sources */,
 				C24E34DE110927B0007D818C /* XMLExtension.m in Sources */,
+				C2B80EB0110CC68500135F92 /* AppController.m in Sources */,
+				C2B80EB4110CC7EE00135F92 /* PreferenceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
