@@ -99,6 +99,16 @@
 	[self displayViewController:vc];
 }
 
+- (IBAction)test:(id)sender
+{
+	NSLog(@"BEGIN TEST");
+	NSManagedObject *newEntry = [NSEntityDescription
+									insertNewObjectForEntityForName:@"Entry"
+									inManagedObjectContext:[self managedObjectContext]];
+	NSLog(@"%@", newEntry);
+	NSLog(@"END TEST");
+}
+
 
 - (void)dealloc
 {

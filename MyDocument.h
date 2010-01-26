@@ -17,5 +17,5 @@
 
 - (IBAction)changeViewController:(id)sender;
 - (void)displayViewController:(ManagingViewController *)vc;
-- (IBAction)createInfo:(id)sender;
+- (IBAction)test:(id)sender;
 @end
