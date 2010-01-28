@@ -31,13 +31,39 @@
 			boolForKey:FWPEmptyDocKey];
 }
 
--(IBAction)showPreferencePanel:(id)sender
+- (IBAction)showPreferencePanel:(id)sender
 {
 	if (!preferenceController) {
 		preferenceController = [[PreferenceController alloc] init];
 	}
 	NSLog(@"Showing %@", preferenceController);
 	[preferenceController showWindow:self];
+}
+
+- (IBAction)addEntry:(id)sender
+{
+	NSWindow *w = [entriesTable window];
+	
+	BOOL editingEnded = [w makeFirstResponder:w];
+	if (!editingEnded) {
+		NSLog(@"Unable to end editing");
+		return;
+	}
+	
+	NSManagedObject *e = [entriesController newObject];
+	[entriesController addObject:e];
+	[e release];
+	
+	[entriesController rearrangeObjects];
+	
+	NSArray *a = [entriesController arrangedObjects];
+	
+	int row = [a indexOfObjectIdenticalTo:e];
+	
+	[entriesTable editColumn:0
+						 row:row
+				   withEvent:nil
+					  select:YES];
 }
 
 @end
