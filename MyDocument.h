@@ -17,5 +17,9 @@
 
 - (IBAction)changeViewController:(id)sender;
 - (void)displayViewController:(ManagingViewController *)vc;
+- (NSUInteger)entitiesWithName:(NSString *)name
+		inManagedObjectContext:(NSManagedObjectContext *)context;
+- (BOOL)addEntityIfNotPresent:(NSString *)name
+	   inManagedObjectContext:(NSManagedObjectContext *)context;
 - (IBAction)test:(id)sender;
 @end
