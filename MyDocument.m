@@ -19,6 +19,19 @@
     self = [super init];
     if (self != nil) {
 		
+		NSManagedObjectContext *context = [self managedObjectContext];
+		NSUndoManager *undoManager = [context undoManager];
+		int i = 0;
+		[undoManager disableUndoRegistration];
+			if (i < 1) {
+				NSEntityDescription *css = [NSEntityDescription 
+									insertNewObjectForEntityForName:@"CSS" 
+									inManagedObjectContext:context];
+				NSLog(@"CSS created");
+			}
+		[context processPendingChanges];
+		[undoManager enableUndoRegistration];
+		
 		viewControllers = [[NSMutableArray alloc] init];
 		
 		ManagingViewController *vc;

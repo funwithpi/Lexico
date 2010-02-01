@@ -11,10 +11,7 @@
 
 @interface AppController : NSObject {
 	PreferenceController *preferenceController;
-	IBOutlet NSTableView *entriesTable;
-	IBOutlet NSArrayController *entriesController;
 }
 - (IBAction)showPreferencePanel:(id)sender;
-- (IBAction)addEntry:(id)sender;
 
 @end

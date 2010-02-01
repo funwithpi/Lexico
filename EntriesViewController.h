@@ -10,7 +10,9 @@
 #import "ManagingViewController.h"
 
 @interface EntriesViewController : ManagingViewController {
-
+	IBOutlet NSTableView *entriesTable;
+	IBOutlet NSArrayController *entriesController;
 }
+- (IBAction)addEntry:(id)sender;
 
 @end
