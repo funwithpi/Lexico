@@ -16,6 +16,7 @@
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		C226A53E110C029500E11EA7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C226A53D110C029500E11EA7 /* Credits.rtf */; };
 		C24E34DE110927B0007D818C /* XMLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E34DD110927B0007D818C /* XMLExtension.m */; };
+		C2AF73A4111E10B500403482 /* XMLEscapes.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2AF73A3111E10B500403482 /* XMLEscapes.plist */; };
 		C2AFE96111041BBF00E31013 /* ManagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AFE96011041BBF00E31013 /* ManagingViewController.m */; };
 		C2AFE96411041C6600E31013 /* CSSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AFE96311041C6600E31013 /* CSSViewController.m */; };
 		C2AFE96911041CC300E31013 /* CSSView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AFE96811041CC300E31013 /* CSSView.xib */; };
@@ -64,6 +65,7 @@
 		C226A53D110C029500E11EA7 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		C24E34DC110927B0007D818C /* XMLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLExtension.h; sourceTree = "<group>"; };
 		C24E34DD110927B0007D818C /* XMLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLExtension.m; sourceTree = "<group>"; };
+		C2AF73A3111E10B500403482 /* XMLEscapes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XMLEscapes.plist; sourceTree = "<group>"; };
 		C2AFE95F11041BBF00E31013 /* ManagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagingViewController.h; sourceTree = "<group>"; };
 		C2AFE96011041BBF00E31013 /* ManagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagingViewController.m; sourceTree = "<group>"; };
 		C2AFE96211041C6600E31013 /* CSSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSViewController.h; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2AF73A3111E10B500403482 /* XMLEscapes.plist */,
 				C226A53D110C029500E11EA7 /* Credits.rtf */,
 				C2CAEBA610FC359700A76D72 /* dsa_pub.pem */,
 				2F7446A70DB6BCF400F9684A /* MainMenu.xib */,
@@ -303,6 +306,7 @@
 				C2AFEA2B1105633700E31013 /* InfoView.xib in Resources */,
 				C226A53E110C029500E11EA7 /* Credits.rtf in Resources */,
 				C2B80EA5110CC38100135F92 /* Preferences.xib in Resources */,
+				C2AF73A4111E10B500403482 /* XMLEscapes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

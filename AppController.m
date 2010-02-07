@@ -40,4 +40,10 @@
 	[preferenceController showWindow:self];
 }
 
+- (void)dealloc
+{
+	[preferenceController release];
+	[super dealloc];
+}
+
 @end

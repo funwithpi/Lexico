@@ -17,9 +17,20 @@
 
 - (IBAction)changeViewController:(id)sender;
 - (void)displayViewController:(ManagingViewController *)vc;
-- (NSUInteger)entitiesWithName:(NSString *)name
+
+- (int)countEntitiesWithName:(NSString *)name
 		inManagedObjectContext:(NSManagedObjectContext *)context;
+- (NSArray *)entitiesWithName:(NSString *)name
+			 inManagedObjectContext:(NSManagedObjectContext *)context;
 - (BOOL)addEntityIfNotPresent:(NSString *)name
 	   inManagedObjectContext:(NSManagedObjectContext *)context;
+
+- (IBAction)export:(id)sender;
+- (BOOL)writeCSSToPath:(NSString *)path;
+- (BOOL)writeEntriesToPath:(NSString *)path;
+- (NSString *)stringByReplacingXMLEscapedCharactersInString:(NSString *)string;
+- (NSArray *)escapedCharactersList;
+
 - (IBAction)test:(id)sender;
+
 @end

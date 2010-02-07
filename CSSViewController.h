@@ -10,7 +10,7 @@
 #import "ManagingViewController.h"
 
 @interface CSSViewController : ManagingViewController {
-
+	IBOutlet NSTextView *textView;
 }
 
 @end
