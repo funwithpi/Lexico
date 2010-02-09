@@ -1,7 +1,7 @@
 TLexico
 v7
 r0
-t287198276.753264
+t287444484.918497
 cCheck dependencies
 cProcessInfoPlistFile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Info.plist Info.plist
 cCopyStringsFile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
@@ -70,9 +70,9 @@ i"AppController.h"
 i"PreferenceController.h"
 
 N/Users/jbbjones/Lexico/CSSView.xib
-c000000004B6B6E490000000000009E37
-t1265331785
-s40503
+c000000004B71D4B40000000000009B73
+t1265751220
+s39795
 
 N/Users/jbbjones/Lexico/CSSViewController.h
 c000000004B6B6E2F0000000000000137
@@ -103,14 +103,14 @@ t1264285047
 s206
 
 N/Users/jbbjones/Lexico/English.lproj/MainMenu.xib
-c000000004B6E14BE000000000001B9AA
-t1265505470
-s113066
+c000000004B71D254000000000001A78D
+t1265750612
+s108429
 
 N/Users/jbbjones/Lexico/English.lproj/MyDocument.xib
-c000000004B6E13DB000000000000B195
-t1265505243
-s45461
+c000000004B71B724000000000000B68B
+t1265743652
+s46731
 
 N/Users/jbbjones/Lexico/EntriesView.xib
 c000000004B6B9D6E0000000000010977
@@ -131,9 +131,9 @@ s905
 i"EntriesViewController.h"
 
 N/Users/jbbjones/Lexico/FBMatterView.xib
-c000000004B552B0600000000000070ED
-t1263872774
-s28909
+c000000004B71D4C30000000000009933
+t1265751235
+s39219
 
 N/Users/jbbjones/Lexico/FBMatterViewController.h
 c000000004B552A5C0000000000000122
@@ -161,9 +161,9 @@ s225
 i"Info.h"
 
 N/Users/jbbjones/Lexico/InfoView.xib
-c000000004B66627C000000000000B771
-t1265001084
-s46961
+c000000004B71D67F000000000000C23C
+t1265751679
+s49724
 
 N/Users/jbbjones/Lexico/InfoViewController.h
 c000000004B552B8F000000000000011A
@@ -199,15 +199,15 @@ s347
 i"ManagingViewController.h"
 
 N/Users/jbbjones/Lexico/MyDocument.h
-c000000004B6DDD5A0000000000000423
-t1265491290
-s1059
+c000000004B71D01A000000000000043E
+t1265750042
+s1086
 i<Cocoa/Cocoa.h>
 
 N/Users/jbbjones/Lexico/MyDocument.m
-c000000004B6E134A000000000000201C
-t1265505098
-s8220
+c000000004B71D47D0000000000002531
+t1265751165
+s9521
 i"MyDocument.h"
 i"CSSViewController.h"
 i"EntriesViewController.h"
@@ -215,8 +215,8 @@ i"FBMatterViewController.h"
 i"InfoViewController.h"
 
 N/Users/jbbjones/Lexico/MyDocument.xcdatamodel
-c000000004B6B9E4F0000000000000088
-t1265344079
+c000000004B71D5DC0000000000000088
+t1265751516
 s136
 
 N/Users/jbbjones/Lexico/PreferenceController.h
@@ -264,7 +264,7 @@ s766
 i"XMLExtension.h"
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app
-t1265505476
+t1265751684
 s102
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Frameworks/Sparkle.framework
@@ -276,16 +276,16 @@ t1265499798
 s2648
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/MacOS/Lexico
-t1265505476
-s38440
+t1265751239
+s42672
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/PkgInfo
 t1265499799
 s8
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/CSSView.nib
-t1265499802
-s6900
+t1265751238
+s6623
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/Credits.rtf
 t1265499803
@@ -300,27 +300,27 @@ t1265499801
 s206
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/English.lproj/MainMenu.nib
-t1265505473
-s20068
+t1265750614
+s18518
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/English.lproj/MyDocument.nib
-t1265505473
-s6813
+t1265743666
+s7981
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/EntriesView.nib
 t1265499803
 s12767
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/FBMatterView.nib
-t1263874103
-s2866
+t1265751238
+s6499
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/InfoView.nib
-t1265499803
-s7657
+t1265751684
+s8383
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/MyDocument.mom
-t1265499814
+t1265751517
 s3998
 
 N/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/Preferences.nib
@@ -369,8 +369,8 @@ t1265499815
 s19192
 
 N/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o
-t1265505476
-s62852
+t1265751239
+s66192
 
 N/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/PreferenceController.o
 t1265499816
@@ -706,7 +706,7 @@ s2669
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies287198273#287198273#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies287444484#287444484#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/AppController.o /Users/jbbjones/Lexico/AppController.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s287192616.410007
@@ -815,8 +815,8 @@ CCompileC build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/ManagingVi
 r0
 
 CCompileC build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o /Users/jbbjones/Lexico/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s287198274.044221
-e287198276.118497
+s287444038.870192
+e287444039.538608
 r1
 xCompileC
 xbuild/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o
@@ -825,7 +825,7 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@43"Compile /Users/jbbjones/Lexico/MyDocument.m287198274#287198276#0(0"0(0#0#35"/Users/jbbjones/Lexico/MyDocument.m4300885448#1001"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Debug -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Debug/include -I/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-heoaakcaimagjzfqbytlxmpofcvl/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/MyDocument.m -o /Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o0#
+lSLF07#2@43"Compile /Users/jbbjones/Lexico/MyDocument.m287444038#287444039#0(0"0(0#0#35"/Users/jbbjones/Lexico/MyDocument.m4300885448#1001"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Debug -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Debug/include -I/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/DerivedSources -include /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-heoaakcaimagjzfqbytlxmpofcvl/Lexico_Prefix.pch -c /Users/jbbjones/Lexico/MyDocument.m -o /Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o0#
 
 CCompileC build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/MyDocument-528B0CF58FE91DC2.o /Users/jbbjones/Lexico2/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -892,28 +892,28 @@ CCompileC build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/main.o /Us
 r0
 
 CCompileXIB /Users/jbbjones/Lexico/CSSView.xib
-s287192602.531947
-e287192602.911948
+s287444038.253553
+e287444038.869357
 r1
 xCompileXIB
 x/Users/jbbjones/Lexico/CSSView.xib
-lSLF07#2@22"CompileXIB CSSView.xib287192602#287192602#0(0"0(0#0#34"/Users/jbbjones/Lexico/CSSView.xib4300885448#248"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/CSSView.nib /Users/jbbjones/Lexico/CSSView.xib0#
+lSLF07#2@22"CompileXIB CSSView.xib287444038#287444038#0(0"0(0#0#34"/Users/jbbjones/Lexico/CSSView.xib4300885448#248"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/CSSView.nib /Users/jbbjones/Lexico/CSSView.xib0#
 
 CCompileXIB /Users/jbbjones/Lexico/English.lproj/MainMenu.xib
-s287198273.179740
-e287198273.914087
+s287443414.198868
+e287443414.580327
 r1
 xCompileXIB
 x/Users/jbbjones/Lexico/English.lproj/MainMenu.xib
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib287198273#287198273#0(0"0(0#0#49"/Users/jbbjones/Lexico/English.lproj/MainMenu.xib4300885448#278"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jbbjones/Lexico/English.lproj/MainMenu.xib0#
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib287443414#287443414#0(0"0(0#0#49"/Users/jbbjones/Lexico/English.lproj/MainMenu.xib4300885448#278"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jbbjones/Lexico/English.lproj/MainMenu.xib0#
 
 CCompileXIB /Users/jbbjones/Lexico/English.lproj/MyDocument.xib
-s287198273.180591
-e287198274.043869
+s287436466.108793
+e287436466.481345
 r1
 xCompileXIB
 x/Users/jbbjones/Lexico/English.lproj/MyDocument.xib
-lSLF07#2@39"CompileXIB English.lproj/MyDocument.xib287198273#287198274#0(0"0(0#0#51"/Users/jbbjones/Lexico/English.lproj/MyDocument.xib4300885448#282"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/English.lproj/MyDocument.nib /Users/jbbjones/Lexico/English.lproj/MyDocument.xib0#
+lSLF07#2@39"CompileXIB English.lproj/MyDocument.xib287436466#287436466#0(0"0(0#0#51"/Users/jbbjones/Lexico/English.lproj/MyDocument.xib4300885448#282"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/English.lproj/MyDocument.nib /Users/jbbjones/Lexico/English.lproj/MyDocument.xib0#
 
 CCompileXIB /Users/jbbjones/Lexico/EntriesView.xib
 s287192602.540153
@@ -924,20 +924,20 @@ x/Users/jbbjones/Lexico/EntriesView.xib
 lSLF07#2@26"CompileXIB EntriesView.xib287192602#287192603#0(0"0(0#0#38"/Users/jbbjones/Lexico/EntriesView.xib4300885448#256"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/EntriesView.nib /Users/jbbjones/Lexico/EntriesView.xib0#
 
 CCompileXIB /Users/jbbjones/Lexico/FBMatterView.xib
-s285566902.959974
-e285566903.259941
+s287444038.256657
+e287444038.869922
 r1
 xCompileXIB
 x/Users/jbbjones/Lexico/FBMatterView.xib
-lSLF07#2@27"CompileXIB FBMatterView.xib285566902#285566903#0(0"0(0#0#39"/Users/jbbjones/Lexico/FBMatterView.xib4300882208#258"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/FBMatterView.nib /Users/jbbjones/Lexico/FBMatterView.xib0#
+lSLF07#2@27"CompileXIB FBMatterView.xib287444038#287444038#0(0"0(0#0#39"/Users/jbbjones/Lexico/FBMatterView.xib4300885448#258"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/FBMatterView.nib /Users/jbbjones/Lexico/FBMatterView.xib0#
 
 CCompileXIB /Users/jbbjones/Lexico/InfoView.xib
-s287192602.912485
-e287192603.281841
+s287444484.560380
+e287444484.914008
 r1
 xCompileXIB
 x/Users/jbbjones/Lexico/InfoView.xib
-lSLF07#2@23"CompileXIB InfoView.xib287192602#287192603#0(0"0(0#0#35"/Users/jbbjones/Lexico/InfoView.xib4300885448#250"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/InfoView.nib /Users/jbbjones/Lexico/InfoView.xib0#
+lSLF07#2@23"CompileXIB InfoView.xib287444484#287444484#0(0"0(0#0#35"/Users/jbbjones/Lexico/InfoView.xib4300885448#250"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/InfoView.nib /Users/jbbjones/Lexico/InfoView.xib0#
 
 CCompileXIB /Users/jbbjones/Lexico/Preferences.xib
 s287192603.062239
@@ -1014,26 +1014,26 @@ xdsa_pub.pem
 lSLF07#2@16"Copy dsa_pub.pem284964647#284964647#0(0"0(0#0#34"/Users/jbbjones/Lexico/dsa_pub.pem4300882208#278"    cd /Users/jbbjones/Lexico    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/jbbjones/Lexico/dsa_pub.pem /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources0#
 
 CDataModelCompile /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/MyDocument.mom /Users/jbbjones/Lexico/MyDocument.xcdatamodel
-s287192614.496798
-e287192615.304402
+s287444317.096633
+e287444317.170775
 r1
 xDataModelCompile
 x/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/MyDocument.mom
 x/Users/jbbjones/Lexico/MyDocument.xcdatamodel
-lSLF07#2@53"Compile /Users/jbbjones/Lexico/MyDocument.xcdatamodel287192614#287192615#0(0"0(0#0#45"/Users/jbbjones/Lexico/MyDocument.xcdatamodel4300885448#213"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/jbbjones/Lexico/MyDocument.xcdatamodel /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/MyDocument.mom0#
+lSLF07#2@53"Compile /Users/jbbjones/Lexico/MyDocument.xcdatamodel287444317#287444317#0(0"0(0#0#45"/Users/jbbjones/Lexico/MyDocument.xcdatamodel4300885448#213"    cd /Users/jbbjones/Lexico    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/jbbjones/Lexico/MyDocument.xcdatamodel /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/Resources/MyDocument.mom0#
 
 CDataModelCompile /Users/jbbjones/Lexico2/build/Debug/Lexico.app/Contents/Resources/MyDocument.mom /Users/jbbjones/Lexico2/MyDocument.xcdatamodel
 r0
 
 CLd /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/MacOS/Lexico normal x86_64
-s287198276.118750
-e287198276.734889
+s287444039.538711
+e287444039.609789
 r1
 xLd
 x/Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/MacOS/Lexico
 xnormal
 xx86_64
-lSLF07#2@72"Link /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/MacOS/Lexico287198276#287198276#0(0"0(0#0#0"4300885448#501"    cd /Users/jbbjones/Lexico    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jbbjones/Lexico/build/Debug -F/Users/jbbjones/Lexico/build/Debug -F/Users/jbbjones/Lexico -filelist /Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/Lexico.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Sparkle -o /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/MacOS/Lexico0#
+lSLF07#2@72"Link /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/MacOS/Lexico287444039#287444039#0(0"0(0#0#0"4300885448#501"    cd /Users/jbbjones/Lexico    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jbbjones/Lexico/build/Debug -F/Users/jbbjones/Lexico/build/Debug -F/Users/jbbjones/Lexico -filelist /Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/Objects-normal/x86_64/Lexico.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Sparkle -o /Users/jbbjones/Lexico/build/Debug/Lexico.app/Contents/MacOS/Lexico0#
 
 CLd /Users/jbbjones/Lexico2/build/Debug/Lexico.app/Contents/MacOS/Lexico normal x86_64
 r0
@@ -1095,12 +1095,12 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@28"Precompile Lexico_Prefix.pch287192603#287192614#0(0"0(0#0#40"/Users/jbbjones/Lexico/Lexico_Prefix.pch4300885448#895"    cd /Users/jbbjones/Lexico    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/Lexico.hmap -F/Users/jbbjones/Lexico/build/Debug -F/Users/jbbjones/Lexico -I/Users/jbbjones/Lexico/build/Debug/include -I/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/DerivedSources/x86_64 -I/Users/jbbjones/Lexico/build/Lexico.build/Debug/Lexico.build/DerivedSources -c /Users/jbbjones/Lexico/Lexico_Prefix.pch -o /var/folders/Sl/SlRA42bwFbq9LHyOfx1Xik+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Lexico_Prefix-heoaakcaimagjzfqbytlxmpofcvl/Lexico_Prefix.pch.gch0#
 
 CTouch /Users/jbbjones/Lexico/build/Debug/Lexico.app
-s287198276.735179
-e287198276.753111
+s287444484.915275
+e287444484.918450
 r1
 xTouch
 x/Users/jbbjones/Lexico/build/Debug/Lexico.app
-lSLF07#2@51"Touch /Users/jbbjones/Lexico/build/Debug/Lexico.app287198276#287198276#0(0"0(0#0#0"4300885448#98"    cd /Users/jbbjones/Lexico    /usr/bin/touch -c /Users/jbbjones/Lexico/build/Debug/Lexico.app0#
+lSLF07#2@51"Touch /Users/jbbjones/Lexico/build/Debug/Lexico.app287444484#287444484#0(0"0(0#0#0"4300885448#98"    cd /Users/jbbjones/Lexico    /usr/bin/touch -c /Users/jbbjones/Lexico/build/Debug/Lexico.app0#
 
 CTouch /Users/jbbjones/Lexico2/build/Debug/Lexico.app
 r0

@@ -26,8 +26,9 @@
 	   inManagedObjectContext:(NSManagedObjectContext *)context;
 
 - (IBAction)export:(id)sender;
-- (BOOL)writeCSSToPath:(NSString *)path;
-- (BOOL)writeEntriesToPath:(NSString *)path;
+- (BOOL)writeCSSToPath:(NSURL *)path;
+- (BOOL)writeEntriesToPath:(NSURL *)path;
+- (NSXMLElement *)frontAndBackMatterAsXML;
 - (NSString *)stringByReplacingXMLEscapedCharactersInString:(NSString *)string;
 - (NSArray *)escapedCharactersList;
 

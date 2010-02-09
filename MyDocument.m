@@ -54,6 +54,7 @@
 {
     [super windowControllerDidLoadNib:windowController];
 	
+	[self test:self];
 	//Remove border used to see box in development
 	[mainView setBorderType:NSNoBorder];
 	
@@ -61,6 +62,7 @@
 	
 	[self addEntityIfNotPresent:@"CSS" inManagedObjectContext:context];
 	[self addEntityIfNotPresent:@"Info" inManagedObjectContext:context];
+	[self addEntityIfNotPresent:@"FBMatter" inManagedObjectContext:context];
 	
 	//Set mainView to Entries tab
 	[self displayViewController:[viewControllers objectAtIndex:1]];
@@ -170,36 +172,47 @@
 	
 	int i = [openPanel runModal];
 	if (i == NSOKButton) {
-		NSString *selectedDirectory = [[openPanel URLs] objectAtIndex:0];
-		NSString *URLDestination = [NSString stringWithFormat:@"%@My Dictionary/",selectedDirectory];
-		NSString *destination = [URLDestination stringByReplacingOccurrencesOfString:@"file://localhost"
-																		  withString:@""];
-		NSError *error;
-		int i = [[NSFileManager defaultManager] createDirectoryAtPath:destination
-										  withIntermediateDirectories:YES
-														   attributes:nil
-																error:&error];
-		if (i == 0) {
-			NSLog(@"Alert 1");
-			[[NSAlert alertWithError:error] runModal];
+		NSURL *selectedDirectory = [[openPanel URLs] objectAtIndex:0];
+		NSURL *destination = [selectedDirectory URLByAppendingPathComponent:@"My Dictionary"];
+		
+		int exists = [[NSFileManager defaultManager] fileExistsAtPath:[destination path]];
+		if (exists) {
+			NSAlert *fileExists = [NSAlert alertWithMessageText:@"A folder with the name 'My Dictionary' already exists!"
+							defaultButton:@"Export Dictionary Anyway"
+						  alternateButton:@"Cancel"
+							  otherButton:nil
+				 informativeTextWithFormat:@"Exporting the dictionary will overwrite this folder."];
+			int button = [fileExists runModal];
+			if (button = NSAlertAlternateReturn) {
+				return;
+			}
 		}
 		else {
-			[self writeCSSToPath:destination];
-			[self writeEntriesToPath:destination];
+			NSError *error;
+			int i = [[NSFileManager defaultManager] createDirectoryAtPath:[destination path]
+										  withIntermediateDirectories:NO
+														   attributes:nil
+																error:&error];
+			if (i == 0) {
+				NSLog(@"%@",destination);
+				[[NSAlert alertWithError:error] runModal];
+			}
 		}
+		[self writeCSSToPath:destination];
+		[self writeEntriesToPath:destination];
 
 	}
 
 }
 
-- (BOOL)writeCSSToPath:(NSString *)path
+- (BOOL)writeCSSToPath:(NSURL *)path
 {
 	NSArray *entities = [self entitiesWithName:@"CSS"
 						inManagedObjectContext:[self managedObjectContext]];
 	NSManagedObject *css = [entities objectAtIndex:0];
 	NSString *code = [css valueForKey:@"code"];
 	NSError *error;
-	int i = [code writeToFile:[NSString stringWithFormat:@"%@css.css",path]
+	int i = [code writeToFile:[NSString stringWithFormat:@"%@/css.css",[path path]]
 		   atomically:YES
 			 encoding:NSUTF8StringEncoding
 				error:&error];
@@ -209,7 +222,7 @@
 	return YES;
 }
 
-- (BOOL)writeEntriesToPath:(NSString *)path
+- (BOOL)writeEntriesToPath:(NSURL *)path
 {
 	NSXMLElement *root = [[NSXMLElement alloc] initWithName:@"d:dictionary"];
 	NSXMLNode *xmlns = [NSXMLNode attributeWithName:@"xmlns"
@@ -220,6 +233,8 @@
 	[root addAttribute:xmlnsd];
 	NSXMLDocument *doc = [[NSXMLDocument alloc] initWithRootElement:root];
 	[root release];
+	[doc setVersion:@"1.0"];
+	[doc setCharacterEncoding:@"UTF-8"];
 	
 	NSArray *entriesArray = [self entitiesWithName:@"Entry"
 							inManagedObjectContext:[self managedObjectContext]];
@@ -241,16 +256,36 @@
 		[root addChild:xmlEntry];
 	}
 	
+	[root addChild:[self frontAndBackMatterAsXML]];
+	
 	NSString *xmlString = [[NSString alloc] initWithData:[doc XMLDataWithOptions:NSXMLNodePrettyPrint]
 												encoding:NSUTF8StringEncoding];
 	NSString *newFile = [self stringByReplacingXMLEscapedCharactersInString:xmlString];
-	[newFile writeToFile:[NSString stringWithFormat:@"%@xml.xml",path]
+	[newFile writeToFile:[NSString stringWithFormat:@"%@/xml.xml",[path path]]
 			  atomically:YES
 				encoding:NSUTF8StringEncoding
 				   error:NULL];
 	[xmlString release];
 	[doc release];
 	return YES;
+}
+
+- (NSXMLElement *)frontAndBackMatterAsXML
+{
+	NSArray *entriesArray = [self entitiesWithName:@"Entry"
+							inManagedObjectContext:[self managedObjectContext]];
+	NSManagedObject *entry = [entriesArray objectAtIndex:0];
+	
+	NSXMLElement *xmlEntry = [NSXMLElement elementWithName:@"d:entry"];
+	NSXMLNode *title = [NSXMLNode attributeWithName:@"d:title"
+										stringValue:@"Front/Back Matter"];
+	NSXMLNode *identification = [NSXMLNode attributeWithName:@"id"
+													stringValue:@"front_back_matter"];
+	NSXMLNode *content = [NSXMLNode textWithStringValue:[entry valueForKey:@"content"]];
+	[xmlEntry addAttribute:identification];
+	[xmlEntry addAttribute:title];
+	[xmlEntry addChild:content];
+	return xmlEntry;
 }
 
 - (NSString *)stringByReplacingXMLEscapedCharactersInString:(NSString *)string
@@ -278,7 +313,6 @@
 - (IBAction)test:(id)sender
 {
 	NSLog(@"BEGIN TEST");
-
 	NSLog(@"END TEST");
 }
 
