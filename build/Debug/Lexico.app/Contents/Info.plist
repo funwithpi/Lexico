@@ -73,8 +73,12 @@
 	</array>
 	<key>CFBundleExecutable</key>
 	<string>Lexico</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Lexico Help.help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>com.funwithpi.lexico.help</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.funwithpi.Lexico</string>
+	<string>com.funwithpi.lexico</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

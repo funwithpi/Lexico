@@ -80,7 +80,7 @@
 	<key>CFBundleIconFile</key>
 	<string></string>
 	<key>CFBundleIdentifier</key>
-	<string>com.funwithpi.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.funwithpi.lexico</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -101,5 +101,9 @@
 	<string>dsa_pub.pem</string>
 	<key>SUFeedURL</key>
 	<string>http://dl.dropbox.com/u/1478177/appcast.xml</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Lexico Help.help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>com.funwithpi.lexico.help</string>
 </dict>
 </plist>

@@ -7,7 +7,7 @@
 //
 
 #import "EntriesViewController.h"
-
+#import "Constants.h"
 
 @implementation EntriesViewController
 
@@ -24,28 +24,32 @@
 
 - (IBAction)addEntry:(id)sender
 {
-	NSWindow *w = [entriesTable window];
-	
-	BOOL editingEnded = [w makeFirstResponder:w];
-	if (!editingEnded) {
-		NSLog(@"Unable to end editing");
-		return;
-	}
 	
 	NSManagedObject *e = [entriesController newObject];
 	[entriesController addObject:e];
 	[e release];
 	
-	[entriesController rearrangeObjects];
+	if ([[NSUserDefaults standardUserDefaults] boolForKey:FWPBeginEditingOnEntryAddition]) {
+		NSWindow *w = [entriesTable window];
 	
-	NSArray *a = [entriesController arrangedObjects];
+		BOOL editingEnded = [w makeFirstResponder:w];
+		if (!editingEnded) {
+			NSLog(@"Unable to end editing");
+			return;
+		}
 	
-	int row = [a indexOfObjectIdenticalTo:e];
+		[entriesController rearrangeObjects];
 	
-	[entriesTable editColumn:0
-						 row:row
-				   withEvent:nil
-					  select:YES];
+		NSArray *a = [entriesController arrangedObjects];
+	
+		int row = [a indexOfObjectIdenticalTo:e];
+	
+		[entriesTable editColumn:0
+							 row:row
+					   withEvent:nil
+						  select:YES];
+	}
+
 }
 
 @end

@@ -7,7 +7,12 @@
 //
 
 #import "AppController.h"
-#import "PreferenceController.h"
+#import "Constants.h"
+#import "GeneralPreferenceViewController.h"
+#import "AdvancedPreferenceViewController.h"
+#import "UpdatePreferenceViewController.h"
+
+#import "MBPreferencesController.h"
 
 @implementation AppController
 
@@ -18,11 +23,25 @@
 	//Set default values
 	[defaultValues setObject:[NSNumber numberWithBool:YES]
 					  forKey:FWPEmptyDocKey];
+	[defaultValues setObject:[NSNumber numberWithBool:YES]
+					  forKey:FWPBeginEditingOnEntryAddition];
+	
 	
 	[[NSUserDefaults standardUserDefaults] registerDefaults:defaultValues];
 	
 	NSLog(@"The default values have been registered. These are thsoe which have been: %@", defaultValues);
 }
+
+- (void)awakeFromNib
+{
+	GeneralPreferenceViewController *general = [[GeneralPreferenceViewController alloc] initWithNibName:@"GeneralView" bundle:nil];
+	UpdatePreferenceViewController *update = [[UpdatePreferenceViewController alloc] initWithNibName:@"UpdateView" bundle:nil];
+	AdvancedPreferenceViewController *advanced = [[AdvancedPreferenceViewController alloc] initWithNibName:@"AdvancedView" bundle:nil];
+	[[MBPreferencesController sharedController] setModules:[NSArray arrayWithObjects:general, update, advanced, nil]];
+	[general release];
+	[advanced release];
+}
+
 
 - (BOOL)applicationShouldOpenUntitledFile:(NSApplication *)sender
 {
@@ -33,16 +52,11 @@
 
 - (IBAction)showPreferencePanel:(id)sender
 {
-	if (!preferenceController) {
-		preferenceController = [[PreferenceController alloc] init];
-	}
-	NSLog(@"Showing %@", preferenceController);
-	[preferenceController showWindow:self];
+	[[MBPreferencesController sharedController] showWindow:sender];
 }
 
 - (void)dealloc
 {
-	[preferenceController release];
 	[super dealloc];
 }
 

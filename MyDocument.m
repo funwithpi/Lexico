@@ -7,6 +7,7 @@
 //
 
 #import "MyDocument.h"
+#import "Constants.h"
 #import "CSSViewController.h"
 #import "EntriesViewController.h"
 #import "FBMatterViewController.h"
@@ -165,7 +166,7 @@
 - (IBAction)export:(id)sender
 {
 	NSOpenPanel *openPanel = [NSOpenPanel openPanel];
-	[openPanel setPrompt:@"Export to Folder"];
+	[openPanel setPrompt:@"Export to Folder…"];
 	[openPanel setCanChooseFiles:NO];
 	[openPanel setCanChooseDirectories:YES];
 	[openPanel setAllowsMultipleSelection:NO];

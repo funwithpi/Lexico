@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en-us</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.funwithpi.lexico.help</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>CFBundleName</key>
+	<string>Lexico Help</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1</string>
+	<key>CFBundleSignature</key>
+	<string>dbjfwp</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>HPDBookAccessPath</key>
+	<string>index.html</string>
+	<key>HPDBookIconPath</key>
+	<string>index.png</string>
+	<key>HPDBookIndexPath</key>
+	<string>Lexico Help.helpindex</string>
+	<key>HPDBookTitle</key>
+	<string>Lexico Help</string>
+	<key>HPDType</key>
+	<string>3</string>
+	<key>HPDBookTopicListCSSPath</key>
+	<string>style/topiclist.css</string>
+	<key>HPDBookTopicListTemplatePath</key>
+	<string>style/topiclist.xquery</string>
+</dict>
+</plist>

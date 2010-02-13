@@ -26,12 +26,19 @@
 		C2AFEA191105621500E31013 /* FBMatterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AFEA181105621500E31013 /* FBMatterView.xib */; };
 		C2AFEA28110562E500E31013 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AFEA27110562E500E31013 /* InfoViewController.m */; };
 		C2AFEA2B1105633700E31013 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2AFEA2A1105633700E31013 /* InfoView.xib */; };
-		C2B80EA5110CC38100135F92 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2B80EA4110CC38100135F92 /* Preferences.xib */; };
 		C2B80EB0110CC68500135F92 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B80EAF110CC68500135F92 /* AppController.m */; };
-		C2B80EB4110CC7EE00135F92 /* PreferenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B80EB3110CC7EE00135F92 /* PreferenceController.m */; };
 		C2CAEB8810FC324300A76D72 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2CAEB8710FC324300A76D72 /* Sparkle.framework */; };
 		C2CAEBA310FC339800A76D72 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2CAEB8710FC324300A76D72 /* Sparkle.framework */; };
 		C2CAEBA710FC359700A76D72 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = C2CAEBA610FC359700A76D72 /* dsa_pub.pem */; };
+		C2D4CB801123F7E2006E95BC /* GeneralView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D4CB7F1123F7E2006E95BC /* GeneralView.xib */; };
+		C2D4CB871123F881006E95BC /* AdvancedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D4CB861123F881006E95BC /* AdvancedView.xib */; };
+		C2D4CC1D11240495006E95BC /* MBPreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4CC1C11240495006E95BC /* MBPreferencesController.m */; };
+		C2D4CC22112404C0006E95BC /* AdvancedPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4CC1F112404C0006E95BC /* AdvancedPreferenceViewController.m */; };
+		C2D4CC23112404C0006E95BC /* GeneralPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4CC21112404C0006E95BC /* GeneralPreferenceViewController.m */; };
+		C2D4CC6A112409C0006E95BC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4CC69112409C0006E95BC /* Constants.m */; };
+		C2D4CC9911262BE2006E95BC /* UpdateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2D4CC9611262BE1006E95BC /* UpdateView.xib */; };
+		C2D4CC9A11262BE2006E95BC /* UpdatePreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D4CC9711262BE1006E95BC /* UpdatePreferenceViewController.m */; };
+		C2D4CC9E11262BFB006E95BC /* Sparkle.icns in Resources */ = {isa = PBXBuildFile; fileRef = C2D4CC9D11262BFB006E95BC /* Sparkle.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -80,13 +87,24 @@
 		C2AFEA26110562E500E31013 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		C2AFEA27110562E500E31013 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		C2AFEA2A1105633700E31013 /* InfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
-		C2B80EA4110CC38100135F92 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		C2B80EAE110CC68500135F92 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		C2B80EAF110CC68500135F92 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		C2B80EB2110CC7EE00135F92 /* PreferenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceController.h; sourceTree = "<group>"; };
-		C2B80EB3110CC7EE00135F92 /* PreferenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceController.m; sourceTree = "<group>"; };
 		C2CAEB8710FC324300A76D72 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		C2CAEBA610FC359700A76D72 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		C2D4CB7F1123F7E2006E95BC /* GeneralView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralView.xib; sourceTree = "<group>"; };
+		C2D4CB861123F881006E95BC /* AdvancedView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvancedView.xib; sourceTree = "<group>"; };
+		C2D4CC1B11240495006E95BC /* MBPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPreferencesController.h; sourceTree = "<group>"; };
+		C2D4CC1C11240495006E95BC /* MBPreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPreferencesController.m; sourceTree = "<group>"; };
+		C2D4CC1E112404C0006E95BC /* AdvancedPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedPreferenceViewController.h; sourceTree = "<group>"; };
+		C2D4CC1F112404C0006E95BC /* AdvancedPreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedPreferenceViewController.m; sourceTree = "<group>"; };
+		C2D4CC20112404C0006E95BC /* GeneralPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferenceViewController.h; sourceTree = "<group>"; };
+		C2D4CC21112404C0006E95BC /* GeneralPreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferenceViewController.m; sourceTree = "<group>"; };
+		C2D4CC68112409C0006E95BC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C2D4CC69112409C0006E95BC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		C2D4CC9611262BE1006E95BC /* UpdateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateView.xib; sourceTree = "<group>"; };
+		C2D4CC9711262BE1006E95BC /* UpdatePreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdatePreferenceViewController.m; sourceTree = "<group>"; };
+		C2D4CC9811262BE2006E95BC /* UpdatePreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatePreferenceViewController.h; sourceTree = "<group>"; };
+		C2D4CC9D11262BFB006E95BC /* Sparkle.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Sparkle.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,15 +163,18 @@
 		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C2AFE96611041C7000E31013 /* View Swap */,
+				C2AFE96611041C7000E31013 /* Main View Swap */,
+				C2D4CB7A1123F6FC006E95BC /* Preference View Swap */,
 				2A37F4AEFDCFA73011CA2CEA /* MyDocument.h */,
 				2A37F4ACFDCFA73011CA2CEA /* MyDocument.m */,
+				C2D4CC1B11240495006E95BC /* MBPreferencesController.h */,
+				C2D4CC1C11240495006E95BC /* MBPreferencesController.m */,
 				C2B80EAE110CC68500135F92 /* AppController.h */,
 				C2B80EAF110CC68500135F92 /* AppController.m */,
-				C2B80EB2110CC7EE00135F92 /* PreferenceController.h */,
-				C2B80EB3110CC7EE00135F92 /* PreferenceController.m */,
 				C24E34DC110927B0007D818C /* XMLExtension.h */,
 				C24E34DD110927B0007D818C /* XMLExtension.m */,
+				C2D4CC68112409C0006E95BC /* Constants.h */,
+				C2D4CC69112409C0006E95BC /* Constants.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -170,12 +191,12 @@
 		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C2D4CC9D11262BFB006E95BC /* Sparkle.icns */,
 				C2AF73A3111E10B500403482 /* XMLEscapes.plist */,
 				C226A53D110C029500E11EA7 /* Credits.rtf */,
 				C2CAEBA610FC359700A76D72 /* dsa_pub.pem */,
 				2F7446A70DB6BCF400F9684A /* MainMenu.xib */,
 				2F7446A90DB6BCF400F9684A /* MyDocument.xib */,
-				C2B80EA4110CC38100135F92 /* Preferences.xib */,
 				8D15AC360486D014006FF6A4 /* Info.plist */,
 				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
 			);
@@ -191,7 +212,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C2AFE96611041C7000E31013 /* View Swap */ = {
+		C2AFE96611041C7000E31013 /* Main View Swap */ = {
 			isa = PBXGroup;
 			children = (
 				C2AFE95F11041BBF00E31013 /* ManagingViewController.h */,
@@ -201,7 +222,7 @@
 				C2AFEA17110561AC00E31013 /* Front and Back Matter */,
 				C2AFEA29110562EA00E31013 /* Info */,
 			);
-			name = "View Swap";
+			name = "Main View Swap";
 			sourceTree = "<group>";
 		};
 		C2AFE96711041C7C00E31013 /* CSS */ = {
@@ -242,6 +263,46 @@
 				C2AFEA2A1105633700E31013 /* InfoView.xib */,
 			);
 			name = Info;
+			sourceTree = "<group>";
+		};
+		C2D4CB7A1123F6FC006E95BC /* Preference View Swap */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4CB7E1123F7A1006E95BC /* General */,
+				C2D4CB851123F859006E95BC /* Advanced */,
+				C2D4CC9B11262BE5006E95BC /* Update */,
+			);
+			name = "Preference View Swap";
+			sourceTree = "<group>";
+		};
+		C2D4CB7E1123F7A1006E95BC /* General */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4CC20112404C0006E95BC /* GeneralPreferenceViewController.h */,
+				C2D4CC21112404C0006E95BC /* GeneralPreferenceViewController.m */,
+				C2D4CB7F1123F7E2006E95BC /* GeneralView.xib */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		C2D4CB851123F859006E95BC /* Advanced */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4CC1E112404C0006E95BC /* AdvancedPreferenceViewController.h */,
+				C2D4CC1F112404C0006E95BC /* AdvancedPreferenceViewController.m */,
+				C2D4CB861123F881006E95BC /* AdvancedView.xib */,
+			);
+			name = Advanced;
+			sourceTree = "<group>";
+		};
+		C2D4CC9B11262BE5006E95BC /* Update */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4CC9711262BE1006E95BC /* UpdatePreferenceViewController.m */,
+				C2D4CC9811262BE2006E95BC /* UpdatePreferenceViewController.h */,
+				C2D4CC9611262BE1006E95BC /* UpdateView.xib */,
+			);
+			name = Update;
 			sourceTree = "<group>";
 		};
 		E1B74B1A0667B4A90069E3BA /* Models */ = {
@@ -305,8 +366,11 @@
 				C2AFEA191105621500E31013 /* FBMatterView.xib in Resources */,
 				C2AFEA2B1105633700E31013 /* InfoView.xib in Resources */,
 				C226A53E110C029500E11EA7 /* Credits.rtf in Resources */,
-				C2B80EA5110CC38100135F92 /* Preferences.xib in Resources */,
 				C2AF73A4111E10B500403482 /* XMLEscapes.plist in Resources */,
+				C2D4CB801123F7E2006E95BC /* GeneralView.xib in Resources */,
+				C2D4CB871123F881006E95BC /* AdvancedView.xib in Resources */,
+				C2D4CC9911262BE2006E95BC /* UpdateView.xib in Resources */,
+				C2D4CC9E11262BFB006E95BC /* Sparkle.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +391,11 @@
 				C2AFEA28110562E500E31013 /* InfoViewController.m in Sources */,
 				C24E34DE110927B0007D818C /* XMLExtension.m in Sources */,
 				C2B80EB0110CC68500135F92 /* AppController.m in Sources */,
-				C2B80EB4110CC7EE00135F92 /* PreferenceController.m in Sources */,
+				C2D4CC1D11240495006E95BC /* MBPreferencesController.m in Sources */,
+				C2D4CC22112404C0006E95BC /* AdvancedPreferenceViewController.m in Sources */,
+				C2D4CC23112404C0006E95BC /* GeneralPreferenceViewController.m in Sources */,
+				C2D4CC6A112409C0006E95BC /* Constants.m in Sources */,
+				C2D4CC9A11262BE2006E95BC /* UpdatePreferenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
